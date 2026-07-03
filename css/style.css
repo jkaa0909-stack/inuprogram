@@ -163,3 +163,63 @@ main {
   line-height: 1.8;
   text-align: center;
 }
+
+.hobby__card {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--space-5);
+  text-align: center;
+}
+
+.hobby__icon {
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: var(--space-2);
+}
+
+.hobby__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: var(--space-1);
+}
+
+.hobby__desc {
+  color: var(--color-text-muted);
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.contact__label {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.contact__value {
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.contact__value:hover {
+  color: var(--color-accent);
+}
+
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-4) var(--space-3);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
